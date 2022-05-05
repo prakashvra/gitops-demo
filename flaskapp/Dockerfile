@@ -8,6 +8,6 @@ COPY main.py .
 ENV FLASK_APP=/corp/app/main.py
 
 ENV APP_NAME=CloudAcademy.DevOps
-ENV APP_VERSION=v1.0.0
+ENV APP_VERSION=v1.0.1
 
 CMD ["flask", "run", "--host=127.0.0.1"]
